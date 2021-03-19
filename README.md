@@ -1,2 +1,3 @@
 # LearningSass
-Path to master sass
+
+Path to master **sass**

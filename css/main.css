@@ -1,4 +1,17 @@
 /* Website Colors */
+:root {
+  --primario-100: #ffb199;
+  --primario-200: #ff8a66;
+  --primario-300: #ff6333;
+  --primario-400: #e63600;
+  --primario-500: #661800;
+  --secundario-100: #9ec3fa;
+  --secundario-200: #3d87f5;
+  --secundario-300: #0a54c2;
+  --secundario-400: #052a61;
+  --secundario-500: #031530;
+}
+
 .primario-100 {
   color: #ffb199;
 }
@@ -20,22 +33,22 @@
 }
 
 .secundario-100 {
-  color: #9fbef9;
+  color: #9ec3fa;
 }
 
 .secundario-200 {
-  color: #6e9ef7;
+  color: #3d87f5;
 }
 
 .secundario-300 {
-  color: #3e7ef4;
+  color: #0a54c2;
 }
 
 .secundario-400 {
-  color: #0b4bc1;
+  color: #052a61;
 }
 
 .secundario-500 {
-  color: #062560;
+  color: #031530;
 }
 /*# sourceMappingURL=main.css.map */

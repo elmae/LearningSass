@@ -1,13 +1,14 @@
 @import "colors";
 
-// :root {
-//   @each $color, $shades in $colors {
-//     @each $shade, $value in $shades {
-//       --#{$color}-#{$shade}: #{$value};
-//     }
-//   }
-// }
 /* Website Colors */
+:root {
+  @each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+      --#{$color}-#{$shade}: #{$value};
+    }
+  }
+}
+
 @each $color, $shades in $colors {
   @each $shade, $value in $shades {
     .#{$color}-#{$shade} {

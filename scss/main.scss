@@ -1,18 +1,3 @@
-@import "colors";
-
-/* Website Colors */
-:root {
-  @each $color, $shades in $colors {
-    @each $shade, $value in $shades {
-      --#{$color}-#{$shade}: #{$value};
-    }
-  }
-}
-
-@each $color, $shades in $colors {
-  @each $shade, $value in $shades {
-    .#{$color}-#{$shade} {
-      color: $value;
-    }
-  }
-}
+@import "base";
+@import "layout";
+@import "components";
